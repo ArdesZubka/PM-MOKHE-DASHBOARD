@@ -1,0 +1,8 @@
+{
+  "name": "Backup 13 Sep - 23.45 WIB [cobaDiAkunGoogleAIPlus]; vFix_MorkhēStudioPM",
+  "description": "A comprehensive project management website prototype for Morkhē Studio creative agency, utilizing Double Diamond UX methodologies with full-stack role-based workflows and advanced Gemini AI capabilities.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

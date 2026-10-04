@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+/* DESAIN SISTEM MORKHE STUDIO */
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Space Grotesk", sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+  
+  --color-morkhe-white: #F4F5FA;
+  --color-morkhe-black: #161B1E;
+  --color-morkhe-green: #CCF779;
+  --color-morkhe-purple: #4949E9;
+  --color-morkhe-purple-dark: #3535cf;
+  --color-morkhe-dark-purple: #320E3B;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--color-morkhe-white);
+  color: var(--color-morkhe-black);
+  overflow-x: hidden;
+}
+
+/* Scrollbar styles */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #e4e4e7;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #d4d4d8;
+}
+
+/* Kanban board horizontal scrollbar styling */
+.kanban-board-scroll::-webkit-scrollbar {
+  height: 8px;
+}
+.kanban-board-scroll::-webkit-scrollbar-track {
+  background: #f1f5f9;
+  border-radius: 9999px;
+}
+.kanban-board-scroll::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 9999px;
+}
+.kanban-board-scroll::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+
